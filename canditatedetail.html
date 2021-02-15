@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>medical project </title>
+  </head>
+   	<!-------------------------- body file---------------------------------------------->
+
+  <body>
+  	 	<!-------------------------- navbar---------------------------------------------->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+  <a class="navbar-brand" href="#"><img src="img/logo.gif"alt="logo"id="logo"class="img-fluid"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="canditatedetail.html">mbbs<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ortho</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="/canditatedetail.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        mbbs
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">nursing</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+  	 	<!-------------------------- main file---------------------------------------------->
+            <!-------------------------- Canditate--------------------------------------------->
+
+<section id="candetails" class="py-3">
+<div class="container">
+      <h3 class="py-4">Canditate details*</h3>
+
+  <div class="row">
+    <div class="col-md-4">
+       <form action="/action_page.php" method="get" name="myForm">
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Name *</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" /required>
+  </div>
+  <div class="form-group">
+   <label for="birthday">DOB *</label>
+<input type="date" id="birthday" class="form-control" name="birthday"/required> 
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect2">Gender *</label>
+  <div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+  <label class="form-check-label" for="inlineRadio1">Male </label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <label class="form-check-label" for="inlineRadio2">Female</label>
+</div>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Blood Group *</label>
+        <input type="text" class="form-control" id="examplontrolInput1" /required>
+
+  </div>     
+  </form>
+</div>
+<div class="col-md-4">
+    <div class="form-group">
+    <label for="exampleFormControlInput1"> Initial </label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" /required>
+  </div>
+   <div class="form-group">
+    <label for="exampleFormControlput1">Father's Name </label>
+    <input type="text" class="form-control" id="exampleForControlInput1" /required>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect2">Religion *</label>
+  <div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadi1" value="option3">
+  <label class="form-check-label" for="inlineRadi1">Hindu</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadi2" value="option4">
+  <label class="form-check-label" for="inlineRadi2">Christian</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadii2" value="option5">
+  <label class="form-check-label" for="inlineRadii2">Islam</label>
+</div>
+
+  </div>
+  <div class="form-group">
+    <label for="exampleFormConolTextarea1">Student Code</label>
+        <input type="text" class="form-control" id="examplontrolIput1" /required>
+
+  </div>
+</div>
+    <div class="col-md-4">
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Expansion</label>
+    <input type="text" class="form-control" id="exampFormControlInput1" >
+  </div>
+  <div class="form-group">
+    <label for="exampleFormConnput1">Mother's Name</label>
+    <input type="text" class="form-control" id="exeFormControlInput1" >
+  </div>
+   <div class="form-group">
+     <label for="community">Community</label>
+
+<select class="form-control">
+  <option value="volvo">OC</option>
+  <option value="saab">BC</option>
+  <option value="mercedes">SC</option>
+  <option value="audi">MBC</option>
+</select> 
+  </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Academic year*</label>
+        <input type="text" class="form-control" id="examplontrolInput1" >
+
+  </div>
+    </div>
+  </div>
+</div>
+  
+</section>
+<hr>
+      <!-------------------------- adimission---------------------------------------------->
+<section id="admission" class="py-3">
+  
+<div class="container">
+      <h3 class="pb-4">Admission details*</h3>
+
+  <div class="row">
+    <div class="col-md-3">
+       <form action="/action_page.php" method="get" name="myForm">
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Rank</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" >
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Neet Roll no</label>
+<input type="number" id="quantity" name="quantity" class="form-control"> 
+  </div>  
+  <div class="form-group">
+   <label for="birthday">Course Commensement</label>
+<input type="date" id="birthday" class="form-control" name="birthday"/> 
+  </div>
+ 
+     
+  </form>
+</div>
+   <div class="col-md-3">
+       <form action="/action_page.php" method="get" name="myForm">
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Ar no</label>
+<input type="number" class="form-control"> 
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Rank no</label>
+<input type="number" id="quantity" name="quantity" class="form-control"> 
+  </div>  
+  <div class="form-group">
+   <label for="birthday">Date of Admission</label>
+<input type="date" id="birthday" class="form-control" name="birthday"/> 
+  </div>
+ 
+     
+  </form>
+</div>
+  <div class="col-md-3">
+       <form action="/action_page.php" method="get" name="myForm">
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Total mark</label>
+<input type="number" class="form-control"> 
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Neet Mark</label>
+<input type="number" id="quantity" name="quantity" class="form-control"> 
+  </div>  
+  <div class="form-group">
+   <label for="birthday">Date of Allotement</label>
+<input type="date" id="birthday" class="form-control" name="birthday"/> 
+  </div>
+ 
+     
+  </form>
+</div>
+  <div class="col-md-3">
+       <form action="/action_page.php" method="get" name="myForm">
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Course</label>
+<input type="text" class="form-control"> 
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Admission type</label>
+<select class="form-control">
+  <option value="volvo">Regular Admission</option>
+  <option value="saab">BC</option>
+  <option value="mercedes">SC</option>
+  <option value="audi">MBC</option>
+</select>   </div>  
+  <div class="form-group">
+   <label for="birthday">Select Category</label>
+<select class="form-control">
+  <option value="volvo">OC</option>
+  <option value="saab">BC</option>
+  <option value="mercedes">SC</option>
+  <option value="audi">MBC</option>
+</select>   </div>
+ 
+     
+  </form>
+</div>
+  </div>
+</div>
+  
+</section>
+<hr>
+  <!-------------------------- Address---------------------------------------------->
+<section id="admission" class="py-3">
+  
+<div class="container">
+      <h3 class="pb-4">Present Address*</h3>
+
+  <div class="row">
+    <div class="col-md-6">
+       <form action="/action_page.php" method="get" name="myForm">
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Permanent Address</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Pincode</label>
+<input type="number" id="quantity" name="quantity" class="form-control"> 
+  </div>  
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">State</label>
+<select name="state" id="state" class="form-control">
+<option value="Andhra Pradesh">Andhra Pradesh</option>
+<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+<option value="Assam">Assam</option>
+<option value="Bihar">Bihar</option>
+<option value="Chandigarh">Chandigarh</option>
+<option value="Chhattisgarh">Chhattisgarh</option>
+<option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+<option value="Daman and Diu">Daman and Diu</option>
+<option value="Delhi">Delhi</option>
+<option value="Lakshadweep">Lakshadweep</option>
+<option value="Puducherry">Puducherry</option>
+<option value="Goa">Goa</option>
+<option value="Gujarat">Gujarat</option>
+<option value="Haryana">Haryana</option>
+<option value="Himachal Pradesh">Himachal Pradesh</option>
+<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+<option value="Jharkhand">Jharkhand</option>
+<option value="Karnataka">Karnataka</option>
+<option value="Kerala">Kerala</option>
+<option value="Madhya Pradesh">Madhya Pradesh</option>
+<option value="Maharashtra">Maharashtra</option>
+<option value="Manipur">Manipur</option>
+<option value="Meghalaya">Meghalaya</option>
+<option value="Mizoram">Mizoram</option>
+<option value="Nagaland">Nagaland</option>
+<option value="Odisha">Odisha</option>
+<option value="Punjab">Punjab</option>
+<option value="Rajasthan">Rajasthan</option>
+<option value="Sikkim">Sikkim</option>
+<option value="Tamil Nadu">Tamil Nadu</option>
+<option value="Telangana">Telangana</option>
+<option value="Tripura">Tripura</option>
+<option value="Uttar Pradesh">Uttar Pradesh</option>
+<option value="Uttarakhand">Uttarakhand</option>
+<option value="West Bengal">West Bengal</option>
+</select>
+  </div>  
+   <div class="form-group">
+    <label for="exampleFormControlTextarea1">District</label>
+<input type="text" id="quantity" name="quantity" class="form-control"> 
+  </div>  
+     
+  </form>
+</div>
+    <div class="col-md-6">
+       <form action="/action_page.php" method="get" name="myForm">
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Address</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Pincode</label>
+<input type="number" id="quantity" name="quantity" class="form-control"> 
+  </div>  
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">State</label>
+<select name="state" id="state" class="form-control">
+<option value="Andhra Pradesh">Andhra Pradesh</option>
+<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+<option value="Assam">Assam</option>
+<option value="Bihar">Bihar</option>
+<option value="Chandigarh">Chandigarh</option>
+<option value="Chhattisgarh">Chhattisgarh</option>
+<option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+<option value="Daman and Diu">Daman and Diu</option>
+<option value="Delhi">Delhi</option>
+<option value="Lakshadweep">Lakshadweep</option>
+<option value="Puducherry">Puducherry</option>
+<option value="Goa">Goa</option>
+<option value="Gujarat">Gujarat</option>
+<option value="Haryana">Haryana</option>
+<option value="Himachal Pradesh">Himachal Pradesh</option>
+<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+<option value="Jharkhand">Jharkhand</option>
+<option value="Karnataka">Karnataka</option>
+<option value="Kerala">Kerala</option>
+<option value="Madhya Pradesh">Madhya Pradesh</option>
+<option value="Maharashtra">Maharashtra</option>
+<option value="Manipur">Manipur</option>
+<option value="Meghalaya">Meghalaya</option>
+<option value="Mizoram">Mizoram</option>
+<option value="Nagaland">Nagaland</option>
+<option value="Odisha">Odisha</option>
+<option value="Punjab">Punjab</option>
+<option value="Rajasthan">Rajasthan</option>
+<option value="Sikkim">Sikkim</option>
+<option value="Tamil Nadu">Tamil Nadu</option>
+<option value="Telangana">Telangana</option>
+<option value="Tripura">Tripura</option>
+<option value="Uttar Pradesh">Uttar Pradesh</option>
+<option value="Uttarakhand">Uttarakhand</option>
+<option value="West Bengal">West Bengal</option>
+</select>
+  </div>  
+   <div class="form-group">
+    <label for="exampleFormControlTextarea1">District</label>
+<input type="text" id="quantity" name="quantity" class="form-control"> 
+  </div>  
+      <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Same As Present Address</label>
+  </div>
+  </form>
+</div>
+
+
+  </div>
+</div>
+<hr>
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+  <div class="col-md-4" >
+       <form action="/action_page.php" method="get" name="myForm">
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Phone</label>
+<input type="number" class="form-control"> 
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Cell Phone</label>
+<input type="text" name="Phone Number" pattern="[6-9]{1}[0-9]{9}"required >
+
+  </div>  
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"required>
+  </div>
+   <div class="form-group">
+    <label for="exampleInputEmail1">Aadhar no</label>
+    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+  </div>
+    <div class="form-group">
+    <label for="exampleInputEmail1">Voter id no</label>
+    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+  </div>
+
+</div>
+<div class="col-md-2">
+  <img id="output" width="150" src="https://www.seekpng.com/png/detail/46-462959_unknown-person-icon-png-download-single-people-logo.png" />
+
+
+</div>
+<div class="col-md-6">
+  <div class="d-flex">
+   <div class="custom-file">
+  <input type="file"  accept="image/*" name="image" id="file"  style="display:none"  onchange="loadFile(event)" >
+<label for="file" style="cursor: pointer;border: 1px solid black ;background: #8080805c"class="p-2">Upload photo</label>
+
+<script>
+var loadFile = function(event) {
+  var image = document.getElementById('output');
+  image.src = URL.createObjectURL(event.target.files[0]);
+};
+</script>
+
+  </div>
+     <div class="custom-file">
+  <input type="file"  accept="image/*" name="image" id="file"  style="display:none"  onchange="loadFile(event)" >
+<label for="file" style="cursor: pointer;border: 1px solid black ;background: #8080805c"class="p-2">Scan Finger Print</label>
+
+<script>
+var loadFile = function(event) {
+  var image = document.getElementById('output');
+  image.src = URL.createObjectURL(event.target.files[0]);
+};
+</script>
+
+  </div>
+     <div class="custom-file">
+  <input type="file"  accept="image/*" name="image" id="file"  style="display:none"  onchange="loadFile(event)" >
+<label for="file" style="cursor: pointer;border: 1px solid black;background: #8080805c "class="p-2">Upload Signature</label>
+
+<script>
+var loadFile = function(event) {
+  var image = document.getElementById('output');
+  image.src = URL.createObjectURL(event.target.files[0]);
+};
+</script>
+
+  </div>
+     <div class="custom-file">
+  <input type="file"  accept="image/*" name="image" id="file"  style="display:none"  onchange="loadFile(event)" >
+<label for="file" style="cursor: pointer;border: 1px solid black;background: #8080805c"class="p-2">Image Capture</label>
+
+<script>
+var loadFile = function(event) {
+  var image = document.getElementById('output');
+  image.src = URL.createObjectURL(event.target.files[0]);
+};
+</script>
+
+  </div>
+     <div class="custom-file">
+  <input type="file"  accept="image/*" name="image" id="file"  style="display:none"  onchange="loadFile(event)" >
+<label for="file" style="cursor: pointer;border: 1px solid black ;background: #8080805c"class="p-2">Upload Thumb</label>
+
+<script>
+var loadFile = function(event) {
+  var image = document.getElementById('output');
+  image.src = URL.createObjectURL(event.target.files[0]);
+};
+</script>
+
+  </div>
+</div>
+  <br><br>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea2">Remark</label>
+    <textarea class="form-control" id="exampleFormControlTextarea2" rows="3"></textarea>
+  </div>
+
+</div>
+
+</div>
+<hr>
+<button class="btn btn-danger float-right  ml-3">Cancel</button>
+<button type="submit" class="btn btn-primary float-right ">Save </button>
+
+</div>
+
+</form>
+
+</section>
+ 	<!-------------------------- js file---------------------------------------------->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
